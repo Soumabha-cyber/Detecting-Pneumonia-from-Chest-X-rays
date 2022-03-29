@@ -1,0 +1,75 @@
+Classifying Chest X rays as Pneumonia or Normal by looking at xray images
+
+*************** link of the dataset *****************
+
+https://www.dropbox.com/s/tlxserrdhe240lu/archive.zip
+
+*********** about the dataset ***********
+
+Total three types of chest xray (normal, Bacterial Pneumonia, Viral Pneumonia)
+In the dataset there are Train,Test and Validate folder for the three works.
+5800 images
+
+************things we do in this project *************
+
+Dealing with Image data sets.
+Performing Data Processing and Augmentation as and when required.
+Creating and training a Convolutional Neural Network using Tensorflow 2.0 
+
+
+**************Prerequisites*****************
+
+Good Knowledge of Python programming language.
+In depth knowledge over Linear and Logistic regression
+Understanding of Basic Image processing.
+Basic Understanding on Artificial neural networks and Convolutional neural 
+networks Working and Implementation.
+
+**************Knowledge about Pneumonia************
+
+Pneumonia is an infection that inflames air sacs in one or both lungs 
+infection can be life-threatening to anyone.
+The germs that cause pneumonia are contagious. 
+Both viral and bacterial pneumonia can spread to others through:
+Inhalation of airborne droplets from a sneeze or cough.
+By coming into contact with surfaces or objects that are contaminated 
+with pneumonia-causing bacteria or viruses.
+
+SYMPTOMS
+
+Coughing that may produce mucus.
+Sweating or chills.
+Shortness of breath.
+Breathe or cough.
+Feelings of tiredness or fatigue.
+Loss of appetite.
+Nausea or vomiting.
+Headaches.
+
+*********************** tensorflow dataset API ************************
+
+Dataset API is used for: 
+Creating a Stacked object for Input data and labels.
+Applying transformations to the data.
+Iterating over the object to fetch the data.
+
+We use resnets here resnet50 is there in keras api of tensorflow, by default 
+the final class has 1000 classes but here we need only two so we make top=false
+The callbacks we used here are early stopping and model check points
+ 
+******************** KEY takeaways and summary*******************
+
+We need to apply some Resampling Techniques to make it balanced.
+We need to apply some Data Transformation techniques.
+We Must Perform Univariate and Bivariate Analysis to understand the Better.
+Finally, Try more and more Predictive Models, Compare them using various 
+Evaluations Metrics is a good way of finding the Best Model.
+
+We have used only 2 callbacks.
+Like “LRScheduler” or “Reduce on Plateau” or build one custom callback.
+We have ‘Inception’ networks ‘EfficientNets’ , ‘NasNets’.
+We need to try out different Models , compare the performance  
+and then move forward with one of them. 
+
+
+
